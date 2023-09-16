@@ -5,7 +5,7 @@ import { ChevronLeft, ChevronRight, GithubIcon } from 'lucide-react';
 
 export default function MainNavbar() {
     return (
-        <header className='py-4 flex justify-between bg-gradient-to-b from-blue-950 to-transparent to-95%'>
+        <header className='py-4 flex justify-between px-4 rounded-t-lg'>
             <div className='flex gap-3 items-center'>
                 <TooltipButton color='secondary' label='Voltar' content={<ChevronLeft />} />
                 <TooltipButton color='secondary' label='Avançar' content={<ChevronRight />} />
