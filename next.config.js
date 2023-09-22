@@ -8,6 +8,24 @@ const nextConfig = {
             port: '',
             pathname: '/image/**',
           },
+          {
+            protocol: 'https',
+            hostname: 'mosaic.scdn.co',
+            port: '',
+            pathname: '/**/**',
+          },
+          {
+            protocol: 'https',
+            hostname: 'seeded-session-images.scdn.co',
+            port: '',
+            pathname: '/v1/img/track/**',
+          },
+          {
+            protocol: 'https',
+            hostname: 'blend-playlist-covers.spotifycdn.com',
+            port: '',
+            pathname: '/**/**',
+          },
         ],
       },
 }

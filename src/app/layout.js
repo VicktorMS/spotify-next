@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
             <YourLibrary />
           </div>
         </aside>
-        <main className='bg-gradient-to-b from-red-600 to-50% to-zinc-900 rounded-lg'>
+        <main className='bg-gradient-to-b from-red-600 to-50% to-zinc-900 rounded-lg overflow-y-auto scrollbar-thumb-zinc-600 scrollbar-thin hover:scrollbar-thumb-zinc-500'>
           {children}
         </main>
         <footer className='col-span-2'>
