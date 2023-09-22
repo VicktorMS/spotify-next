@@ -19,8 +19,16 @@ export default function Home() {
    <>
       <MainNavbar/>
       <UserProfile/>
-      <MediaSection playlists={playlistsData}/>
-      <MediaSection/>
+      <MediaSection 
+        title="Minhas playlists favoritas"
+        subTitle="Playlists que eu curto"
+        playlists={playlistsData}
+      />
+      <MediaSection
+        title="Meus artistas favoritos"
+        subTitle="Artistas que mais curto"
+        
+      />
    </>
   )
 }
