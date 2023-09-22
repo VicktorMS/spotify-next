@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 export default function UserProfile() {
@@ -41,23 +42,27 @@ export default function UserProfile() {
 
     return (
         <section className='flex items-center gap-5 px-4 my-4'>
-            <Image
-                src={images[1].url}
-                width={232}
-                height={232}
-                className='rounded-full shadow-xl'
-                alt='profile picture'
-            />
+            <Link href={"https://open.spotify.com/user/dogmaul-br"}>
+                <Image
+                    src={images[1].url}
+                    width={232}
+                    height={232}
+                    className='rounded-full shadow-xl'
+                    alt='profile picture'
+                />
+            </Link>
             <div className='h-[232px] flex flex-col justify-center text-white'>
                 <div>
                     <span className='text-sm'>Perfil</span>
-                    <h1 className='text-8xl font-extrabold'>{name}</h1>
+                    <Link href={'https://open.spotify.com/user/dogmaul-br'}>
+                        <h1 className='text-8xl font-extrabold'>{name}</h1>
+                    </Link>
                 </div>
                 <div className='text-sm mt-2 pl-5 flex gap-1'>
                     <span>5 Playlists</span>
                     <span>&#8226;</span>
                     <span className=''>
-                        {followers.total} Seguidores 
+                        {followers.total} Seguidores
                     </span>
                 </div>
             </div>
