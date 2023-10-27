@@ -10,6 +10,7 @@ const button = tv({
         },
         color: {
             transparent: 'text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200',
+            none: 'text-zinc-400 hover:text-zinc-200',
             primary: 'text-zinc-200 bg-zinc-700 hover:bg-zinc-600 hover:text-zinc-100',
             secondary: 'bg-zinc-950 hover:bg-black text-zinc-200 hover:text-zinc-100'
         }

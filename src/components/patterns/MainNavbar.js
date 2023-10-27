@@ -1,5 +1,5 @@
 import React from 'react'
-import TooltipButton from '../PopoverButton'
+import TooltipButton from '../TooltipButton'
 import { ChevronLeft, ChevronRight, GithubIcon } from 'lucide-react';
 
 

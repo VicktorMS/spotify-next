@@ -1,6 +1,7 @@
 import Navigation from '@/components/Navigation'
 import './globals.css'
 import YourLibrary from '@/components/YourLibrary'
+import Player from '@/components/patterns/Player'
 
 export const metadata = {
   title: 'Spotify Layout',
@@ -18,12 +19,10 @@ export default function RootLayout({ children }) {
             <YourLibrary />
           </div>
         </aside>
-        <main className='bg-gradient-to-b from-red-600 to-50% to-zinc-900 rounded-lg overflow-y-auto scrollbar-thumb-zinc-600 scrollbar-thin hover:scrollbar-thumb-zinc-500'>
+        <main className='bg-gradient-to-b from-red-800 to-50% to-zinc-900 rounded-lg overflow-y-auto scrollbar-thumb-zinc-600 scrollbar-thin hover:scrollbar-thumb-zinc-500'>
           {children}
         </main>
-        <footer className='col-span-2'>
-          footer
-        </footer>
+        <Player/>
       </body>
     </html>
   )

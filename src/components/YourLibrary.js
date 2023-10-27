@@ -1,6 +1,6 @@
 import React from 'react'
 import { Library, Plus, ArrowRight, Search } from 'lucide-react';
-import TooltipButton from './PopoverButton';
+import TooltipButton from './TooltipButton';
 import Dropdown from './Dropdown';
 import LibraryItemGroup from './patterns/LibraryItemGroup';
 
