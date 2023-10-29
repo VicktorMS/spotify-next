@@ -27,8 +27,9 @@ export default function Home() {
       <MediaSection
         title="Meus artistas favoritos"
         subTitle="Artistas que mais curto"
-        
       />
+     
+
    </>
   )
 }

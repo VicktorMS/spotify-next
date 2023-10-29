@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="pt-br">
-      <body className='bg-neutral-950 grid grid-cols-main-layout-column text-zinc-300 grid-rows-main-layout-footer h-screen gap-2 p-2 max-h-screen'>
+      <body className='bg-black overflow-hidden grid grid-cols-main-layout-column text-zinc-300 grid-rows-main-layout-footer h-screen gap-2 p-2 max-h-screen'>
         <aside className='grid grid-rows-aside-layout gap-2 max-h-screen overflow-y-hidden'>
           <Navigation />
           <div className='bg-zinc-900 rounded-lg overflow-y-hidden'>
